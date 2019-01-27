@@ -12,3 +12,8 @@ body{
 	font: 16px Helvetica, Sans-Serif;
 	background: White;
 }
+
+body {
+    display: block;
+    margin: 8px;
+}
