@@ -1,3 +1,7 @@
-body {
-	font: 16px Helvetica, Sans-Serif;	
+	
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
