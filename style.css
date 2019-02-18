@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height:1.5;
+	background:#f2f2f2;
+	color: #323232;
+}
+img {
+  display: block;
+  margin-top: -50px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 40px auto;
+	padding: 32px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0,0, 0, 0.1);
+	
+}
+section {
+	display: grid;
+	grid-row-gap: 1px;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 20px;
+	padding: 24px 0;
+	border-bottom: 1px solid lightgrey;
+	shadow: 1;	
+}
+section: last-child {
+	border-bottom: none;
+	margin-bottom: -250px;
+}
+.section-title {
+	font-weight: bold;
+	font-size:18px;
+}
+
+.my-name {
+	margin-bottom: -1
+	0px;
+    font-size: 42px;
+	line-height: 1;	
+}
+
+.my-address {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1;	
+}
+
+a {	
+	color: #323232;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contact-info {
+	display: flex;
+	margin: 10px 0px 20px 0px;
+
+}
+
+.contact-info-item {
+	display: flex;
+	margin-top: -20px;
+	margin-right:20px;
+}
+
+p.address {
+    font-size: 18px;
+}
+
+p.content {
+	font-size:20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.job {
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.job:last-child {
+	border-bottom:none;
+	padding: 5px;
+}
+
+.job-title-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.job-company {
+	font-weight: bold;
+	font-size: 18px;	
+}
+.job-title-container{
+	padding: 5px;
+}
